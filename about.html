@@ -5,10 +5,12 @@
         <meta charset="utf-8" />
         <title>ABOUT</title>
       
-        <link rel="stylesheet" href="style.css"
+        <link rel="stylesheet" href="style.css" >
 
     </head>
     <body>
+       
+
        <div class="master">
             <div class="topBar">
                 <div class="left">
@@ -34,13 +36,88 @@
                <div class="about-me-page">
                    <div class="profile-pic">
                        <img src="images/profile.jpg">
+                       
                    </div>
                    <div class="about-me-written">
-                       <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> 
-                       <h1>Welcome to my webpage</h1>
-                       <p> Write your profile here</p>
 
-                       <p>Second part here</p>
+                    
+
+
+
+                       <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> 
+                       <center> <img src="images/duck.gif" height="200px" width="200px" ></img> </center>
+
+                       <h1>Welcome to my webpage</h1>
+                       <p> Hello and welcome, my name is Michael Smith and I am an Electrical Enginnering student at Bradley University. The summer of 
+                           2021 I recieved an intership from an engineering contracting firm called; Burns and McDonnel. I spent the summer designing fiber-optic 
+                           telecommunication systems, a task that I excelled at. At the end of the summer a job offer for a full time position was made.
+                       </p>
+
+                       <p>I am a non-traditional student that enlisted into the United States Marine Corps. after graduating highschool. I gained the position of 'point-man'
+                           and opperated in a 6-man Recon team in this position for six years during my enlistment. 
+                           After I was discharged form the military I enrolled in college and began my path toward becoming an electrical engineer with a minor in computer 
+                           science. I will be graduating in 2022 and beginning my career at Burns and McDonnel the following summer.
+
+
+                           
+                       </p>
+
+                       <br> <br> <br> <br> <br> <br> <br> 
+                      
+                        <table>
+                          
+                           <caption>Personal Info</caption>
+                           
+                           <tr>
+                             <td>Phone Number</th>
+                             <td>(708) 254 6338</td>   
+                            
+                            
+                            </tr>
+                            <tr>
+                                
+                                <td>Personal Email</th>
+                                    <td><a href="mailto:smith.g.michael11@gmail.com">smith.g.michael11@gmail.com</a></td>  
+                                
+                               
+                               </tr>
+                               <tr>
+                                
+                                
+                                <td>School Email</th>
+                                <td><a href="mailto:mgsmith@mail.bradley.edu">mgsmith@mail.bradley.edu</a></td>      
+                               
+                               </tr>
+
+                               <tr>
+                                
+                                
+                                <td>Resume</th>
+                                <td><a href="Resume.pdf" title="Download My Resume"><img style="width: 10px; height: 10px; border: 0;"  src="pdf_image.png" alt="Download My Resume" /></a></td>      
+                               
+                               </tr>
+                       </table>
+                    </div>
+
+
+
+
+
+                       <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> 
+
+
+
+                       
+
+
+
+                       
+
+
+
+                       
+                        
+                       
                                       
                                   
 
@@ -50,11 +127,101 @@
 
 
             </div>
-
-
+            
 
        </div>
 
+       <center><img src="images/books.jpg" alt= "books" ></center>
+
+       <br> <br> <br>
+
+       <h1>My Top 10 Books: </h1>
+       <ol>
+           <li>- The Divine Comedy by: Dante Alighieri</li>
+           <li>- In Search of Lost Time by: Marcel Proust</li>
+           <li>- Ulysses by: James Joyce</li>
+           <li>- Don Quixote by: Miguel de Cervantes</li>
+           <li>- One Hundred Years of Solitude by: Gabriel Garcia Marquez</li>
+           <li>- The Great Gatsby by: F. Scott Fitzgerald</li>
+           <li>- War and Peace by: Leo Tolstoy</li>
+           <li>- Hamlet by: William Shakespeare</li>
+           <li>- Odyssey by: Homer</li>
+           <li>- Madame Bovary by: Gustave Flaubert</li>
+       </ol>
+
+
+       <br> <br> <br> <br> <br> <br> <br> <br>  
+
+       <div class="about-me-written2">
+       <h1>It has been a <i>WILD</i> ride</h1>
+
+       <p id="second-aboutme">My passion for electronics is what drew me into electrical engineering in the first place, but it also what brought coding into my life. I feel that
+           my abilty to confidently read <b><em>AND</em></b> create complex code has set me apart from my fellow electrical engineering students. <i>not to mention how much fun Bradley's COMPUTER SCIENCE courses have been!</i>
+           <small>if not challenging</small> <mark>but in the end it has all been worth it!!</mark>
+       </p>
+
+       <p id="second-aboutme">Although this may be my last year with Bradley, I look forward to the chance to continue to grow and learn as a programmer as well as an electrical engineer!
+
+
+           
+       </p>
+       </div>
+       <br> <br> <br> <br> <br> 
+
+     
+       <h2>What is my favorite color?</h2>
+
+       
+
+        <center><p id="color">Can you guess?</p>
+            <script>
+                function colorFunction(){
+                    document.getElementById("color").style.fontSize = "25px";
+                    document.getElementById("color").style.color = "green";
+                    document.getElementById("color").textContent = "its GREEN!"
+                    
+                }
+            </script>
+            
+          
+        <button type="button" onclick="colorFunction()">Click Me!</button></center>
+
+        <br> <br> <br> 
+
+        <center><img src="images/thinking.gif" height="300px" width="300px" ></img></center>
+
+
+
+
+
+    <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> 
+            <button onclick="topFunction()" id="TopButton" title="Go to top">Top</button>
+
+            <script>
+               
+                mybutton = document.getElementById("TopButton");
+
+                // When the user scrolls down 20px from the top of the document, show the button
+                    window.onscroll = function() {scrollFunction()};
+
+                function scrollFunction() {
+                     if (document.body.scrollTop > 15 || document.documentElement.scrollTop > 20) {
+                        mybutton.style.display = "block";
+                        } else {
+                        mybutton.style.display = "none";
+                        }
+                    }
+
+                    
+                function topFunction() {
+  
+                        document.documentElement.scrollTop = 0; 
+                    }         
+            </script>
+    
+
+
+  
 
 
     </body>
